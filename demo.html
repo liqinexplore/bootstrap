@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0,user-scalable=no"/>
+    <title>bootstrap</title>
+</head>
+<body>
+<div class="row">
+<div class="col-xs-4 col-sm-2 col-md-4 col-lg-2 " style="background: red">
+   这是个实习安排
+</div>
+    <div class="col-xs-4 col-sm-8 col-md-4 col-lg-8 " style="background: blueviolet">
+        这是个实习安排
+    </div>
+    <div class="col-xs-4 col-sm-2 col-md-4 col-lg-2 " style="background: yellowgreen">
+        这是个实习安排
+    </div>
+    <div class="col-xs-12 col-md-6 col-md-offset-2">
+        <small>本行内容是在标签内</small><br>
+        <strong>本行内容是在标签内</strong><br>
+        <em>本行内容是在标签内，并呈现为斜体</em><br>
+        <p class="text-left">向左对齐文本</p>
+        <p class="text-center">居中对齐文本</p>
+        <p class="text-right">向右对齐文本</p>
+        <p class="text-muted">本行内容是减弱的</p>
+        <p class="text-primary">本行内容带有一个 primary class</p>
+        <p class="text-success">本行内容带有一个 success class</p>
+        <p class="text-info">本行内容带有一个 info class</p>
+        <p class="text-warning">本行内容带有一个 warning class</p>
+        <p class="text-danger">本行内容带有一个 danger class</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-offset-3 table-responsive">
+        <table class="table table-bordered table-striped table-hover">
+            <caption class="text-center">这是表格标题</caption>
+            <thead>
+            <tr class="active">
+                <td>名称</td>
+                <td>名称二哈哈</td>
+                <td>名称三</td>
+            </tr>
+            </thead>
+            <tboby>
+                <tr>
+                    <td>内容一</td>
+                    <td>内容二</td>
+                    <td>新闻</td>
+                </tr>
+                <tr  class="active">
+                    <td>内容一</td>
+                    <td>内容二</td>
+                    <td>新闻</td>
+                </tr>
+                <tr class="success">
+                    <td>内容一</td>
+                    <td>内容二</td>
+                    <td>新闻</td>
+                </tr>
+                <tr  class="warning">
+                    <td>内容一</td>
+                    <td>内容二</td>
+                    <td>新闻</td>
+                </tr>
+                <tr class="danger">
+                    <td>内容一</td>
+                    <td>内容二</td>
+                    <td>新闻</td>
+                </tr> <tr>
+                    <td>内容一</td>
+                    <td>内容二</td>
+                    <td>新闻</td>
+                </tr> <tr >
+                    <td>内容一</td>
+                    <td>内容二</td>
+                    <td>新闻</td>
+                </tr> <tr >
+                    <td>内容一</td>
+                    <td>内容二</td>
+                    <td>新闻</td>
+                </tr>
+            </tboby>
+        </table>
+    </div>
+    <div class="col-xs-12 col-md-6 ">
+        <form role="form">
+            <div class="form-group">
+                <label for="name">名称</label>
+                <input type="text" class="form-control" id="name"
+                       placeholder="请输入名称">
+            </div>
+            <div class="form-group">
+                <label for="inputfile">文件输入</label>
+                <input type="file" id="inputfile">
+                <p class="help-block">这里是块级帮助文本的实例。</p>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> 请打勾
+                </label>
+            </div>
+            <label for="name">默认的复选框和单选按钮的实例</label>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">选项 1</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">选项 2</label>
+            </div>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1"
+                           value="option1" checked> 选项 1
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2"
+                           value="option2">
+                    选项 2 - 选择它将会取消选择选项 1
+                </label>
+            </div>
+            <label for="name">内联的复选框和单选按钮的实例</label>
+            <div>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox1" value="option1"> 选项 1
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox2" value="option2"> 选项 2
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox3" value="option3"> 选项 3
+                </label>
+                <label class="checkbox-inline">
+                    <input type="radio" name="optionsRadiosinline" id="optionsRadios3"
+                           value="option1" checked> 选项 1
+                </label>
+                <label class="checkbox-inline">
+                    <input type="radio" name="optionsRadiosinline" id="optionsRadios4"
+                           value="option2"> 选项 2
+                </label>
+            </div>
+            <label for="name">选择列表</label>
+            <select class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+
+            <label for="name">可多选的选择列表</label>
+            <select multiple class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">聚焦</label>
+                <div class="col-sm-10">
+                    <input class="form-control" id="focusedInput" type="text"
+                           value="该输入框获得焦点...">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword" class="col-sm-2 control-label">
+                    禁用
+                </label>
+                <div class="col-sm-10">
+                    <input class="form-control" id="disabledInput" type="text"
+                           placeholder="该输入框禁止输入..." disabled>
+                </div>
+            </div>
+            <fieldset disabled>
+                <div class="form-group">
+                    <label for="disabledTextInput"  class="col-sm-2 control-label">
+                        禁用输入（Fieldset disabled）
+                    </label>
+                    <div class="col-sm-10">
+                        <input type="text" id="disabledTextInput" class="form-control"
+                               placeholder="禁止输入">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="disabledSelect"  class="col-sm-2 control-label">
+                        禁用选择菜单（Fieldset disabled）
+                    </label>
+                    <div class="col-sm-10">
+                        <select id="disabledSelect" class="form-control">
+                            <option>禁止选择</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="form-group has-success">
+                <label class="col-sm-2 control-label" for="inputSuccess">
+                    输入成功
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputSuccess">
+                </div>
+            </div>
+            <div class="form-group has-warning">
+                <label class="col-sm-2 control-label" for="inputWarning">
+                    输入警告
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputWarning">
+                </div>
+            </div>
+            <div class="form-group has-error">
+                <label class="col-sm-2 control-label" for="inputError">
+                    输入错误
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputError">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-default">提交</button>
+        </form>
+    </div>
+
+    <div class="col-xs-10 col-xs-offset-1 col-md-6">
+
+        <!-- 标准的按钮 -->
+        <button type="button" class="btn btn-default">默认按钮</button>
+
+        <!-- 提供额外的视觉效果，标识一组按钮中的原始动作 -->
+        <button type="button" class="btn btn-primary">原始按钮</button>
+
+        <!-- 表示一个成功的或积极的动作 -->
+        <button type="button" class="btn btn-success">成功按钮</button>
+
+        <!-- 信息警告消息的上下文按钮 -->
+        <button type="button" class="btn btn-info">信息按钮</button>
+
+        <!-- 表示应谨慎采取的动作 -->
+        <button type="button" class="btn btn-warning">警告按钮</button>
+
+        <!-- 表示一个危险的或潜在的负面动作 -->
+        <button type="button" class="btn btn-danger">危险按钮</button>
+
+        <!-- 并不强调是一个按钮，看起来像一个链接，但同时保持按钮的行为 -->
+        <button type="button" class="btn btn-link">链接按钮</button>
+    </div>
+    <div class="col-xs-10 col-xs-offset-1 col-md-6">
+
+        <button type="button" class="btn btn-primary btn-lg">
+            <span class="glyphicon glyphicon-user"></span> User
+        </button>
+    </div>
+    <div class="dropdown">
+        <button type="button" class="btn dropdown-toggle" id="dropdownMenu1"
+                data-toggle="dropdown">
+            主题
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#">Java</a>
+            </li>
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+            </li>
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#">
+                    数据通信/网络
+                </a>
+            </li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+            </li>
+        </ul>
+    </div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">W3Cschool</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">iOS</a></li>
+                <li><a href="#">SVN</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Java
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">jmeter</a></li>
+                        <li><a href="#">EJB</a></li>
+                        <li><a href="#">Jasper Report</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">分离的链接</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">另一个分离的链接</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="col-xs-10 col-xs-offset-2 col-lg-6">
+        <ul class="pagination">
+            <li><a href="#">&laquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+        </ul>
+        <span class="label label-default">默认标签</span>
+        <span class="label label-primary">主要标签</span>
+        <span class="label label-success">成功标签</span>
+        <span class="label label-info">信息标签</span>
+        <span class="label label-warning">警告标签</span>
+        <span class="label label-danger">危险标签</span>
+
+    </div>
+    <div class="col-xs-10 col-xs-offset-2 col-lg-6">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>欢迎登陆页面！</h1>
+                <p>这是一个超大屏幕（Jumbotron）的实例。</p>
+                <p><a class="btn btn-primary btn-lg" role="button">
+                    学习更多</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-10 col-xs-offset-2 col-lg-6">
+    <div class="alert alert-success">成功！很好地完成了提交。</div>
+    <div class="alert alert-info">信息！请注意这个信息。</div>
+    <div class="alert alert-warning">警告！请不要提交。</div>
+    <div class="alert alert-danger">错误！请进行一些更改。</div>
+        </div>
+    <div class="col-xs-10 col-md-6">
+        <div class="alert alert-success alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert"
+                    aria-hidden="true">
+                &times;
+            </button>
+            成功！很好地完成了提交。
+        </div>
+        <div class="alert alert-info alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert"
+                    aria-hidden="true">
+                &times;
+            </button>
+            信息！请注意这个信息。
+        </div>
+        <div class="alert alert-warning alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert"
+                    aria-hidden="true">
+                &times;
+            </button>
+            警告！请不要提交。
+        </div>
+        <div class="alert alert-danger alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert"
+                    aria-hidden="true">
+                &times;
+            </button>
+            错误！请进行一些更改。
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                 aria-valuemin="0" aria-valuemax="100" style="width: 46%;">
+                <span class="sr-only">40% 完成</span>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar"
+                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 90%;">
+                <span class="sr-only">90% 完成（成功）</span>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar"
+                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 30%;">
+                <span class="sr-only">30% 完成（信息）</span>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-warning" role="progressbar"
+                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 20%;">
+                <span class="sr-only">20% 完成（警告）</span>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-danger" role="progressbar"
+                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 10%;">
+                <span class="sr-only">10% 完成（危险）</span>
+            </div>
+        </div>
+        <div class="progress progress-striped">
+            <div class="progress-bar progress-bar-success" role="progressbar"
+                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 90%;">
+                <span class="sr-only">90% 完成（成功）</span>
+            </div>
+        </div>
+        <div class="progress progress-striped">
+            <div class="progress-bar progress-bar-info" role="progressbar"
+                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 30%;">
+                <span class="sr-only">30% 完成（信息）</span>
+            </div>
+        </div>
+        <div class="progress progress-striped">
+            <div class="progress-bar progress-bar-warning" role="progressbar"
+                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 20%;">
+                <span class="sr-only">20% 完成（警告）</span>
+            </div>
+        </div>
+        <div class="progress progress-striped">
+            <div class="progress-bar progress-bar-danger" role="progressbar"
+                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 10%;">
+                <span class="sr-only">10% 完成（危险）</span>
+            </div>
+        </div>
+        <div class="progress progress-striped active">
+            <div class="progress-bar progress-bar-success" role="progressbar"
+                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 40%;">
+                <span class="sr-only">40% 完成</span>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar"
+                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 40%;">
+                <span class="sr-only">40% 完成</span>
+            </div>
+            <div class="progress-bar progress-bar-info" role="progressbar"
+                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 30%;">
+                <span class="sr-only">30% 完成（信息）</span>
+            </div>
+            <div class="progress-bar progress-bar-warning" role="progressbar"
+                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 20%;">
+                <span class="sr-only">20% 完成（警告）</span>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
